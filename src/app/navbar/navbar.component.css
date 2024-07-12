@@ -1,0 +1,95 @@
+nav{
+    border-bottom: rgba(0,0,0,.5) solid 0.7px;
+    
+}
+.navbar-brand{
+    width: 118px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+
+}
+ul{
+    margin-left: 50% !important;
+}
+li a{
+    position:relative;
+    width: 48px;
+    
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    color: black;
+    margin-left: 40px;
+}
+.active::after{
+    content: "";
+    width: 48px;
+    position: absolute;
+    height: 1.5px;
+    background-color: #000000;
+    opacity: 50%;
+    left: 16%;
+}
+input{
+    
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+width: 243px;
+height: 38px;
+padding: 7px 12px 7px 20px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background: #F5F5F5;
+border: none;
+margin-right: 0px !important;
+
+}
+.searchbtn{
+    width: 24px;
+    height: 38px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+}
+.searchbtn svg{
+   position: absolute;
+   top:6px;
+   right: 8px;
+}
+.wishlist{
+    margin-left: 20px;
+}
+.cart{
+    margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse{
+        position: absolute;
+        top: 72px;
+        left: 58%;
+        background: rgb(106, 106, 106);
+        padding-right: 130px;
+        margin: 0px;
+    }
+    .active::after{
+        
+        background-color: transparent;
+        
+    }
+}

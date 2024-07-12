@@ -1,0 +1,144 @@
+.col-md-3{
+    border-right:rgba(0,0,0,.5) solid 0.7px;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    width: 142px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: start;
+color: #000000;
+margin-bottom: 20px;
+position: relative;
+cursor: pointer;
+}
+svg{
+    position: absolute;
+    left: 180%;
+    cursor: pointer;
+}
+.image-slider {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-top: 48px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 892px !important;
+    height: 344px !important;
+    
+    
+    background: #000;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .points {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .point {
+    height: 10px; /* Size of the point */
+    width: 10px; /* Size of the point */
+    margin: 0 5px; /* Space between points */
+    background-color: #ccc; /* Inactive point color */
+    border-radius: 50%; /* Circular shape */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .point.active {
+    background-color: #1976D2; /* Active point color */
+  }
+  .apple{
+    position: absolute;
+    top: 60px;
+    left: 85px;
+  }
+  h3{
+    width: 126px;
+height: 20px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #FAFAFA;
+position: absolute;
+    top: 75px;
+    left: 155px;
+
+  }
+  h2{
+    width: 294px;
+height: 120px;
+top: 127px;
+left: 64px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #FAFAFA;
+position: absolute;
+top: 130px;
+left: 85px;
+  }
+  .shop{
+    position: absolute;
+    top: 260px;
+left: 85px;
+cursor: pointer;
+  }
+  
+  @media (max-width: 1000px) {
+    ul{
+      margin: auto;
+      
+    }
+    li{
+      margin-left: 53%;
+      text-align: center;
+    }
+    .col-md-3{
+      border-right:none;
+  }
+  .image-container {
+    width: 150% !important;
+    
+  }
+  .container{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .arrow{
+    display: none;
+  }
+  }
